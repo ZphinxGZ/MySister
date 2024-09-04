@@ -1,0 +1,127 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+body {
+    margin-left: 15%;
+    margin-top: 20px;
+    margin-right: 15%;
+}
+
+var {
+    color: red;
+}
+
+.header {
+    width: 100%;
+    background: #0077ff;
+    color: white;
+}
+
+.billtoHeader {
+    margin-top: 20px;
+    width: 100%;
+    background: #0077ff;
+    color: white;
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.header p {
+    text-align: center;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.headerlogo {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 30px;
+}
+
+.logo03 {
+    display: flex;
+    justify-content: center;
+}
+
+.logo03 img {
+    display: flex;
+    width: 150px;
+}
+
+.customerInfo {
+    display: grid;
+    grid-template-columns: 1fr 1fr
+}
+
+table {
+    margin-top: 30px;
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table th,
+table td {
+    border: 1px black solid;
+    padding: 8px;
+    text-align: center;
+}
+
+thead th {
+    background-color: #0077ff;
+    font-weight: bold;
+    color: aliceblue;
+}
+
+
+tfoot th,
+tfoot td {
+    border: 1px solid #000000;
+    padding: 8px;
+    text-align: left;
+}
+
+tfoot th[colspan="3"] {
+    text-align: center;
+}
+
+tfoot td[rowspan="3"] {
+    vertical-align: middle;
+}
+
+tfoot td[colspan="2"] {
+    text-align: center;
+}
+
+tfoot td:not([rowspan]) {
+    text-align: left;
+}
+
+tfoot td:nth-child(2) {
+    text-align: left;
+}
+
+tfoot td:nth-child(3) {
+    text-align: left;
+}
+
+.bordernone {
+    border-bottom: none;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.nomal {
+    font-weight: normal;
+}
